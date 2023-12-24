@@ -7,7 +7,6 @@ from itertools import zip_longest
 from MySQLdb import IntegrityError
 from flask import Flask, render_template, request, send_file, url_for, redirect, flash, session
 from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
 import time
 from datetime import datetime
 import random
